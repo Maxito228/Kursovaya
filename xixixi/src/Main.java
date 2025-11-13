@@ -220,7 +220,7 @@ class WarehouseSystem {
     }
 
     private void listUsers() {
-        System.out.println("\n👥 Пользователи:");
+        System.out.println("\nПользователи:");
         users.forEach(u -> System.out.println("- " + u.getLogin() + (u.isAdmin() ? " (Admin)" : "")));
     }
 
